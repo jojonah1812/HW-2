@@ -12,7 +12,23 @@
     padding: 10px;   
     border-style: solid;
     border-width: 1px;
-    }
+    justify-content: center;
+    margin-top: 5%;    
+}
+
+
+
+
+.navCar1 {
+
+}
+
+.navCar2 {
+
+}
+
+
+
 
 main {
     
@@ -33,15 +49,17 @@ max-width: 100%
     border-width: 1px;
     }
 
-.cardLarge{
+.cardLarge {
+    width:30px;
+    height: 30px;
     padding: 10px;   
     border-style: solid;
     border-width: 1px;
 }
 
 .cardSmall {
-    height: 2px;
-    width: 2px;
+    width: 200px;
+    height: 200px;
     padding: 10px;   
     border-style: solid;
     border-width: 1px;
