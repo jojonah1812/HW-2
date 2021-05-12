@@ -5,19 +5,15 @@
     }
 
 
+main {
+    display:flex;
+}
 
+.nav
 
-
-    .header nav ul li {
-        display: inline-block;
-            }
-
-
-
-
-
-
-
+.list {
+    justify-content:Flex End;
+        }
 
 
 
@@ -35,12 +31,17 @@
 
 
 
-    .footer {
-        text-align: center;
-        padding: 3px;
-        background-color: DarkSalmon;
-        color: white;
-    }
+
+
+
+
+.footer {
+    justify-content:right;
+    text-align: inline;
+    padding: 30px;
+    background-color: rgb(80, 105, 87);
+    color: white;
+}
 
 
 
