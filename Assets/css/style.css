@@ -3,3 +3,46 @@
     padding: 0
     margin: 0
     }
+
+
+
+
+ nav {
+    display: flex;
+    padding: 10px;   
+    border-style: solid;
+    border-width: 1px;
+    }
+
+main {
+    
+}
+
+
+.ribbon {
+max-width: 100%
+}
+
+
+
+
+
+.sectionAbout {
+    padding: 10px;   
+    border-style: solid;
+    border-width: 1px;
+    }
+
+.cardLarge{
+    padding: 10px;   
+    border-style: solid;
+    border-width: 1px;
+}
+
+.cardSmall {
+    height: 2px;
+    width: 2px;
+    padding: 10px;   
+    border-style: solid;
+    border-width: 1px;
+}
