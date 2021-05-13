@@ -6,20 +6,70 @@
 
 /* Nav styling starts here */
 header {
-    border-style: solid;
-    border-width: 1px;
+    display: flex;
+    padding:2em;
+    justify-content:center;
+    align-items: center;
+    margin: 1em;
+}
 
+h1 {
+    padding: 0 1em 0 1em;
+    display: inline-block;
 }
 
  nav {
-    display: flex;
-    padding: 10px;   
-    justify-content: center;
-    margin-top: 5%;    
+    flex-direction: row;
+    display:flex;
+    justify-content:space-between;
+}    
+
+header ul{
+  list-style-type: none;
+  /* float: right; */
+   }
+
+
+header ul li {
+    display:inline;
+    /* display:right; */
+    padding:5px;
+    margin: 0 0 0 12px;
+}
+
+
+   
+header nav ul li a{
+    text-decoration:none;
+    color:black;
+}
+header nav ul li a:hover{
+    
+    color:rgb(159, 161, 228);
+
+}
+
+
+.ribbon {
+    width:100%;
+}
+
+.banner-image {
+    width:100%;
+
 }
 
 /* work section styling */
 
 .work-image {
-    width:50%;
+    width:20%;
+}
+
+/* card styling */
+.cardLarge {
+
+}
+
+.sectionWork {
+
 }
