@@ -9,78 +9,81 @@
 </head>
 
 <body>
+    <h1>Jonah Haase</h1>
     <header>
         <nav>
-            <card class='navCar1'>
-                <img src=Assets/images/outlinePerson.jpg alt='dashing picture of Jonah'/>
-            </card>
-            <card class='navCar2>';
                 <ul>
                     <li>
-                        <a href="#">About Me</a>
+                        <a href="#aboutMe">About Me</a>
                     </li>
                     <li>
-                        <a href="#something">Work</a>
+                        <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="#something else">Contact Me</a>
+                        <a href="#contactMe">Contact Me</a>
                     </li>
                 </ul>
-            </card>    
+                
         </nav>
     </header>
 
     <main>
-            <sectionRibbon class=ribbon>
+        <section class='ribbon'>
             <img src=Assets/images/ribbonRoad.jpg  alt='long winding road'/>
             
-        </sectionRibbon>
+        </section>
 
         <!--ABOUT ME section-->
-        <sectionAbout class='sectionAbout'>;
-            <header>About Me</header>
+        <section class='sectionAbout' id='aboutMe'>
+            <h2>About Me</h2>
             <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure.</p>
 
-        </sectionAbout>
+        </section>
 
         <!--WORK section-->
-        <sectionWork>
-            <header>Work</header>
-            <section class='cardLarge'>
-                <header>Project #1</header>
-                <img src=Assets/images/pattern1.jpg  alt='flying blue squares'/>
-            </section>
-            <section class='cardSmall'>
-                <header>Project #2</header>
-                <img src=Assets/images/pattern2.jpg  alt='arrows pointing'/>
-            </section>
-            <section class='cardSmall'>
-                <header>Project #3</header>
-                <img src=Assets/images/pattern3.jpg  alt='fluttering squares'/>
-            </section>
-            <section class='cardSmall'>
-                <header>Project #4</header>
-                <img src=Assets/images/pattern4.jpg  alt='squares flying away'/>
-            </section>
-            <section class='cardSmall'>
-                <header>Project #5</header>
-                <img src=Assets/images/pattern5.jpg  alt='orange overlapping squares'/>
-            </section>
+        <section class='sectionAbout' id='work'>
+            <h2>Work</h2>
+        <section class='cardLarge'>
+                <h3>Project #1</h3>
+                <h5>MERN Stack</h5>
+                <img src=Assets/images/pattern1.jpg class='work-image' alt='flying blue squares'/>
+        </section>
+        <section class='cardSmall'>
+                <h3>Project #2</h3>
+                <h5>HTML/CSS</h5>
+                <img src=Assets/images/pattern2.jpg class='work-image' alt='arrows pointing'/>
+        </section>
+        <section class='cardSmall'>
+                <h3>Project #3</h3>
+                <h5>Weather Cast</h5>
+                <img src=Assets/images/pattern3.jpg class='work-image' alt='fluttering squares'/>
+        </section>
+        <section class='cardSmall'>
+                <h3>Project #4</h3>
+                <h5>SubTitle</h5>
+
+                <img src=Assets/images/pattern4.jpg class='work-image' alt='squares flying away'/>
+        </section>
+        <section class='cardSmall'>
+                <h3>Project #5</h3>
+                <h5>JavaScript/CSS</h5>
+                <img src=Assets/images/pattern5.jpg class='work-image' alt='orange overlapping squares'/>
+        </section>
 
 
 
 
-        </sectionWork>
+        </section>
 
     </main>
 
     <!--FOOTER - CONTACT ME section-->
-    <footer>
-        <header>Contact Me</header>
+    <footer  class='contactMe' id='contactMe'></footer>
+        <h2>Contact Me</h2>
         <ul class='list'>
-            <li>562-508-2635</li>
-            <li>jojonah@gmail.com</li>
-            <li>GitHub</li>
+            <li> <a href='tel:562-508-2635'>562-508-2635</a></li>
+            <li><a href='mailto:jojonah@gmail.com'>jojonah@gmail.com</a></li>
+            <li><a href='https://github.com/jojonah1812'>GitHub</a></li>
         </ul>
     </footer>
 

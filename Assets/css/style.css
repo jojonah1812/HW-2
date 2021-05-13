@@ -1,66 +1,25 @@
 * {
-    box-sizing: border-box
-    padding: 0
-    margin: 0
-    }
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+/* Nav styling starts here */
+header {
+    border-style: solid;
+    border-width: 1px;
 
-
+}
 
  nav {
     display: flex;
     padding: 10px;   
-    border-style: solid;
-    border-width: 1px;
     justify-content: center;
     margin-top: 5%;    
 }
 
+/* work section styling */
 
-
-
-.navCar1 {
-
-}
-
-.navCar2 {
-
-}
-
-
-
-
-main {
-    
-}
-
-
-.ribbon {
-max-width: 100%
-}
-
-
-
-
-
-.sectionAbout {
-    padding: 10px;   
-    border-style: solid;
-    border-width: 1px;
-    }
-
-.cardLarge {
-    width:30px;
-    height: 30px;
-    padding: 10px;   
-    border-style: solid;
-    border-width: 1px;
-}
-
-.cardSmall {
-    width: 200px;
-    height: 200px;
-    padding: 10px;   
-    border-style: solid;
-    border-width: 1px;
+.work-image {
+    width:50%;
 }
