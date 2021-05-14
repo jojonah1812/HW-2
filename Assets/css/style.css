@@ -6,11 +6,13 @@
 
 /* Nav styling starts here */
 header {
+    border-style: solid;
+    border-width: 1px;
     display: flex;
     padding:2em;
     justify-content:center;
     align-items: center;
-    margin: 1em;
+    margin: 15px 30px 15px;
 }
 
 h1 {
@@ -49,6 +51,9 @@ header nav ul li a:hover{
 
 }
 
+main {
+    margin:0px 30px;
+}
 
 .ribbon {
     width:100%;
@@ -56,8 +61,15 @@ header nav ul li a:hover{
 
 .banner-image {
     width:100%;
+    max-height: 200px;
 
 }
+.sectionAbout {
+    margin: 12px 0 0 0;
+    }
+
+
+
 
 /* work section styling */
 
@@ -67,9 +79,17 @@ header nav ul li a:hover{
 
 /* card styling */
 .cardLarge {
+    grid-column: 1 / span 2;
 
 }
 
 .sectionWork {
+    margin:12px 0px;
 
+}
+
+.divWrap {
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
 }
