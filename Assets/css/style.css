@@ -17,6 +17,7 @@ header {
     align-items: center;
     margin: 15px 30px 15px;
 }
+
 h1 {
     padding: 0 1em 0 1em;
     display: inline-block;
@@ -123,6 +124,7 @@ footer {
     border-style: solid;
     border-width: 1px;
     display: flex;
+    flex-wrap: wrap;
     padding:2em;
     justify-content:space-between;
     align-items: center;
@@ -134,10 +136,14 @@ footer h2 {
     display: inline-block;
 }
 
-footer ul {
-    flex-direction: row;
+nav {
     display:flex;
+    flex-direction: row;
     justify-content:space-between;
+    align-items: center;
+}
+
+footer ul {
     list-style-type: none;
     /* float: right; */
    }
@@ -145,6 +151,7 @@ footer ul li {
     display:inline;
     padding:5px;
     margin: 0 0 0 12px;
+    font-size: 20;
 }
 footer ul li a{
     text-decoration:none;
