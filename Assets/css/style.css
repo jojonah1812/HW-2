@@ -38,17 +38,13 @@ header ul li {
     padding:5px;
     margin: 0 0 0 12px;
 }
-
-
-   
+  
 header nav ul li a{
     text-decoration:none;
     color:black;
 }
 header nav ul li a:hover{
-    
     color:rgb(159, 161, 228);
-
 }
 
 main {
@@ -67,9 +63,6 @@ main {
 .sectionAbout {
     margin: 12px 0 0 0;
     }
-
-
-
 
 /* work section styling */
 
@@ -93,3 +86,73 @@ main {
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
+
+
+
+
+
+
+
+footer {
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    padding:2em;
+    justify-content:center;
+    align-items: center;
+    margin: 15px 30px 15px;
+}
+
+/* h1 {
+    padding: 0 1em 0 1em;
+    display: inline-block;
+} */
+
+ nav {
+    flex-direction: row;
+    display:flex;
+    justify-content:space-between;
+}    
+
+footer ul {
+  list-style-type: none;
+  /* float: right; */
+   }
+
+
+footer ul li {
+    display:inline;
+    /* display:right; */
+    padding:5px;
+    margin: 0 0 0 12px;
+}
+
+
+   
+footer nav ul li a {
+    text-decoration:none;
+    color:black;
+}
+footer nav ul li a:hover{
+    color:rgb(159, 161, 228);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
