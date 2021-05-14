@@ -90,22 +90,28 @@ main {
     position:left;
     width:100%;
     max-width:40px;
-    max-height: 40px; */
+    max-height: 40px;
     /* justify-content: center;
-    z-index: 1;
+    z-index: 1;*/
 
 }
 /* card styling */
 .cardLarge {
-    grid-column: 1 / span 2;
-    width: 50%
+    grid-column: 1/span 2;
+    /* width: 50% */
     padding: 10px;
-    border: 5px solid gray;
+    border: 3px solid gray;
     margin: 0;
     position: relative;
     width: 300px;
     height: 300px;
 }
+
+.cardSmall {
+    max-width: 200px;
+    max-height: 200px;
+}
+
 
 .sectionWork {
     margin:12px 0px;
